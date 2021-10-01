@@ -107,7 +107,9 @@ class MainThread(QThread):
     def run(self):
         self.TaskExecution()
 
-    insert here
+    def TaskExecution(self):
+        startup()
+        wish()
 
         while True:
             command = obj.mic_input()
