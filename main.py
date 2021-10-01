@@ -372,4 +372,7 @@ class Main(QMainWindow):
         self.ui.textBrowser_2.setText(label_time)
 
 
-
+app = QApplication(sys.argv)
+jarvis = Main()
+jarvis.show()
+exit(app.exec_())
